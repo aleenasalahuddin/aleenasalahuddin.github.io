@@ -2,86 +2,104 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aleena Salahuddin | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Lato&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Aleena Salahuddin - Digital Polymath Portfolio"/>
+  <title>Aleena Salahuddin</title>
+
+  <!-- IBM Plex Sans: clean font for Neo-Brutalist feel -->
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
-      margin: 0;
-      font-family: 'Lato', sans-serif;
-      background: #fff8f5;
-      color: #2c2c2c;
-      line-height: 1.7;
+      font-family: 'IBM Plex Sans', sans-serif;
+      background-color: #f6f6f6;
+      color: #111;
+      padding: 3rem;
+      line-height: 1.6;
     }
-    header {
-      background-color: #f9e6f2;
-      text-align: center;
-      padding: 3rem 1rem;
+
+    .container {
+      border: 2px solid #000;
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
     }
-    header h1 {
-      font-family: 'Playfair Display', serif;
+
+    h1 {
       font-size: 3rem;
-      margin: 0;
-      color: #b4005d;
+      font-weight: 700;
+      margin-bottom: 1rem;
     }
-    header h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.3rem;
+
+    h2 {
+      font-size: 2rem;
       font-weight: 500;
-      color: #6e336e;
-      margin-top: 0.8rem;
+      margin-top: 2rem;
     }
-    section {
-      max-width: 700px;
-      margin: 2rem auto;
-      padding: 0 1.5rem;
-    }
-    h3 {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.8rem;
-      color: #b4005d;
-    }
+
     p, a {
       font-size: 1rem;
-      color: #333;
+      margin: 0.5rem 0;
     }
-    footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      font-size: 0.9rem;
-      background-color: #f2d6e6;
-    }
+
     a {
-      color: #a02c78;
-      text-decoration: none;
-    }
-    a:hover {
+      color: #000;
       text-decoration: underline;
+    }
+
+    .section {
+      border: 2px dashed #000;
+      padding: 1rem;
+      margin-top: 1.5rem;
+      background-color: #e9e9e9;
+    }
+
+    .contact {
+      margin-top: 2rem;
+    }
+
+    .label {
+      font-weight: 700;
     }
   </style>
 </head>
 <body>
-  <header>
+  <div class="container">
     <h1>Aleena Salahuddin</h1>
-    <h2>Digital Polymath | AI & Data Science Aficionada | Visionary Strategist</h2>
-  </header>
+    <p><strong>Digital Polymath</strong> | Data Science & AI Enthusiast</p>
 
-  <section>
-    <h3>About Me</h3>
-    <p>
-      I am a digital polymath with a discerning eye for innovation, currently deepening my expertise in Artificial Intelligence and Data Science. My intellectual interests span systems thinking, ethical tech, and the aesthetics of digital experience. I merge intuition with analytical precision, crafting ideas that not only scale — but captivate.
-    </p>
-  </section>
+    <div class="section">
+      <h2>About Me</h2>
+      <p>Passionately self-taught, I bridge multiple disciplines with a thirst for innovation and strategic experimentation. Currently pursuing certification in Data Science & AI to expand my intellectual arsenal and practical repertoire.</p>
+    </div>
 
-  <section>
-    <h3>Contact</h3>
-    <p>Email: <a href="mailto:aleenasalahuddinnofficial@gmail.com">aleenasalahuddinnofficial@gmail.com</a></p>
-    <p>Phone: +92 311 7380437</p>
-    <p>GitHub: <a href="https://github.com/aleenasalahuddin" target="_blank">aleenasalahuddin</a></p>
-  </section>
+    <div class="section">
+      <h2>Skills Snapshot</h2>
+      <ul>
+        <li>Python (Pandas, NumPy, Matplotlib)</li>
+        <li>Data Visualization</li>
+        <li>Version Control with Git & GitHub</li>
+        <li>Social Media Strategy & Branding</li>
+      </ul>
+    </div>
 
-  <footer>
-    &copy; 2025 Aleena Salahuddin — All rights reserved.
-  </footer>
+    <div class="section">
+      <h2>Links</h2>
+      <p><span class="label">GitHub Repository:</span> <a href="https://github.com/aleenasalahuddin/aleenasalahuddin.github.io" target="_blank">View on GitHub</a></p>
+      <p><span class="label">Live Site:</span> <a href="https://aleenasalahuddin.github.io" target="_blank">Visit Portfolio</a></p>
+    </div>
+
+    <div class="contact">
+      <p><span class="label">Email:</span> <a href="mailto:aleenasalahuddinnofficial@gmail.com">aleenasalahuddinnofficial@gmail.com</a></p>
+      <p><span class="label">Phone:</span> +92 311 7380437</p>
+    </div>
+  </div>
 </body>
 </html>
